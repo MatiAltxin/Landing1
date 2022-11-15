@@ -1,0 +1,40 @@
+
+.manu-navbar {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row nowrap;
+    gap: 0px;
+    height: 80px;
+    overflow: visible;
+    padding: 20px;
+    position: relative;
+    max-width: 1234px;
+    margin: 0 auto;
+}
+
+.manu-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+
+.manu-navbar ul li {
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 100;
+    list-style: none;
+    margin-right: 10px;
+    color: rgb(186, 186, 186);
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: background-color 1s ease,color 1s ease;
+    
+    &:hover {
+        background-color: rgb(62, 9, 105);
+        color: white;
+    }
+}

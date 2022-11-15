@@ -1,0 +1,46 @@
+
+
+.home-page {
+    display: grid;
+    grid-template-columns: 500px auto;
+    max-width: 1234px;
+    margin: 0px auto;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.home-title {
+    position: relative;
+    top: 100px;
+    max-width: 700px;
+    width: 600px;
+}
+
+.home-title  h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #ffff;
+}
+
+.home-title  p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.home-button {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(62, 9, 105);
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 1s ease;
+
+    &:hover {
+        background-color: rgb(84, 14, 142);
+    }
+}
