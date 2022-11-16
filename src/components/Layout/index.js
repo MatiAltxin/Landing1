@@ -8,7 +8,7 @@ import Footer from "../Footer";
 
 const Layout = () => {
     return (
-        <div className="App">
+        <div>
             <div className="container">
                 <Header/>
                 <Home/>

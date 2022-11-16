@@ -3,7 +3,7 @@
 .home-page {
     display: grid;
     grid-template-columns: 500px auto;
-    max-width: 1234px;
+    max-width: 1534px;
     margin: 0px auto;
     padding: 0px 30px;
     position: relative;
@@ -18,14 +18,14 @@
 
 .home-title  h1 {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4rem;
     line-height: 80px;
     color: #ffff;
 }
 
 .home-title  p {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.7)
 }
@@ -43,4 +43,43 @@
     &:hover {
         background-color: rgb(84, 14, 142);
     }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .home-page {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .home-title {
+            width: 100%;
+            text-align: center; 
+            max-width: 100%;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .home-page {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 1534px;
+        margin: 0px auto;
+        padding: 0px 30px;
+        position: relative;
+    }
+    .home-title {
+        width: 100%;
+        position: relative;
+        top: 100px;
+        max-width: 700px;
+        text-align: center;
+        h1 {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+    }
+
 }
