@@ -26,6 +26,7 @@ export default Card
 const CardElement = styled.div`
     max-width: 400px;
     width: 100%;
+    min-width: 280px;
     background-color: #ffff;
     border-radius: 20px;
     text-align: start;

@@ -12,9 +12,9 @@
     display: grid;
     min-height: 600px;
     grid-template-columns: repeat(2, 1fr);
-
+    gap: 20px;
     .container-content {
-        width: 100%;
+        width: 80%;
 
         h2 {
             font-size: 3.6rem;
@@ -122,9 +122,12 @@
         }
     }
     .container-card-flex {
+        width: 100%;
         display: flex;
         gap: 2rem;
-        flex-wrap: wrap;
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+        overflow-x: hidden;
     }
 }
 
@@ -253,10 +256,12 @@
         display: grid;
         min-height: 600px;
         grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 200px;
+ 
     
         .container-content {
             width: 100%;
-    
+                
             h2 {
                 font-size: 3.6rem;
                 color: white;
@@ -338,7 +343,6 @@
         .container-card-flex {
             display: flex;
             gap: 2rem;
-            flex-wrap: wrap;
         }
     }
 }
@@ -439,7 +443,6 @@
         .container-card-flex {
             display: flex;
             gap: 2rem;
-            flex-wrap: wrap;
         }
     }
 }
